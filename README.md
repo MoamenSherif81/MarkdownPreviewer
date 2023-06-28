@@ -36,4 +36,4 @@ The following external libraries and resources were used to develop the Markdown
 - The "marked" library for JavaScript is used for parsing and rendering Markdown content. You can learn more about it at [marked.js](https://marked.js.org/).
 - The "highlight.js" library is used for syntax highlighting in the preview section. You can find more information at [highlight.js](https://highlightjs.org/).
 
-If you have any questions, feedback, or suggestions regarding the Markdown Previewer Web App, please contact [your-email@example.com](mailto:your-email@example.com).
+If you have any questions, feedback, or suggestions regarding the Markdown Previewer Web App, please contact [moamenyt@gmail.com](mailto:moamenyt@gmail.com).
