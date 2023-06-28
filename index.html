@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/default.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <h1 class="nav__title">Markdown Previewer</h1>
+      <ul class="nav__list">
+        <li class="nav__item" data-target="markdown__docs">Docs</li>
+        <li class="nav__item" data-target="markdown__textarea">Code</li>
+        <li class="nav__item nav__item-md" data-target="markdown__preview">Preview</li>
+      </ul>
+    </nav>
+    <div class="markdown">
+      <div class="markdown__docs d-none" data-id="markdown__docs">
+        
+      </div>
+      <div class="markdown__editor">
+        <textarea
+          class="markdown__textarea tab__item active"
+          contenteditable="true"
+          data-id="markdown__textarea"
+          placeholder="Write your markdown code here..."
+        ></textarea>
+
+        <div class="markdown__preview tab__item" data-id="markdown__preview"></div>
+      </div>
+    </div>
+
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"
+      integrity="sha512-rdhY3cbXURo13l/WU9VlaRyaIYeJ/KBakckXIvJNAQde8DgpOmE+eZf7ha4vdqVjTtwQt69bD2wH2LXob/LB7Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/marked/5.1.0/marked.min.js"
+      integrity="sha512-j5KAPeir0rGl+OSddiUeUtUlG+GK7acI/kNQqrpjSSB1IlDUbj3VnQOyoW3GWpPj7i8CSfb0T+Q4IRHxAPRxCA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/app.js" type="module"></script>
+  </body>
+</html>
